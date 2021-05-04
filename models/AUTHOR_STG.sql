@@ -1,9 +1,4 @@
---{{config}}
-{{
-  config(
-    materialized='Table'
-  )
-}}
+
 
 with Dim_Author as (
        select
